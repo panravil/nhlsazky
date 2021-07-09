@@ -1,0 +1,47 @@
+
+.news {
+    overflow-x: hidden;
+    /* Since positioning the image, we need to help out the caption */
+    .carousel-caption {
+        bottom: 3rem;
+        z-index: 10;
+    }
+
+    .carousel-inner {
+        overflow: visible;
+    }
+
+    .carousel-indicators {
+        position: relative;
+    }
+
+    .article {
+        height: 250px;
+        transition-duration: 0.5s !important;
+        transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1) !important;
+        transform: scale(1.0) !important;
+
+        &:hover {
+            text-decoration: none;
+            transition-property: transform !important;
+            transition-duration: 0.5s !important;
+            transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1) !important;
+            transform: scale(1.04) !important;
+        }
+
+        .article-title {
+            font-size: 1.35rem;
+            font-weight: 500;
+        }
+
+
+        .article-description {
+            overflow: hidden !important;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+        }
+    }
+
+}

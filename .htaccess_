@@ -1,0 +1,8 @@
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+	RewriteCond %{HTTPS} off [NC]
+	RewriteRule (.*) http://www.ttt.nhlsazky.cz%{REQUEST_URI} [L,R=301,QSA]
+    RewriteCond %{REQUEST_URI} !^public
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>                  

@@ -1,0 +1,1999 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #212121;
+    font-family: 'Roboto', 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    overflow-x: hidden;
+}
+
+#header {
+    background-color: #d5d5d5;
+}
+
+.table-responsive {
+    border-radius: 1rem;
+}
+
+.img-responsive {
+    display: inline;
+}
+
+.panel-primary > .panel-heading {
+    background-color: rgb(22, 100, 224);
+    font-size: 16px;
+}
+
+.panel-body {
+    line-height: 2;
+    font-size: 15px;
+}
+
+h1 {
+    font-weight: bold;
+    color: #FFF;
+    background-color: #212121;
+    font-size: 1.60em;
+    margin: 0px -10px 20px -10px;
+    padding: 13px 0 13px 0px;
+    text-align: center
+}
+
+h1 .title {
+    font-weight: bold;
+    color: #FFF;
+    background-color: #212121;
+    font-size: 1.60em;
+    margin: 0px -10px 20px -30px;
+    padding: 13px 0 13px 0px;
+    text-align: center
+}
+
+h3 {
+    font-weight: bold;
+    color: #FFF;
+    background-color: #212121;
+    font-size: 1.60em;
+    margin: 0px -10px 20px -10px;
+    padding: 13px 0 13px 20px;
+}
+
+h2, h4, h5 {
+    font-weight: bold;
+    color: #1e1e1e;
+    font-size: 1.60em;
+    padding: 15px 0 13px 10px;
+    margin: 0;
+}
+
+.h1_main {
+    margin: 0px 0px 0px 0px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+
+.page_wrapper {
+	padding: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.page_wrapper h1 {
+    background: none;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
+}
+.soutez_text ul {
+    padding-left: 20px;
+}
+
+#chart_div2 {
+    overflow: hidden;
+}
+
+.page_tittle {
+    font-weight: bold;
+    color: #FFF;
+    font-size: 1.60em;
+    margin: 0px -10px 20px -10px;
+    padding: 13px 0 13px 0px;
+    text-align: center;
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1)
+}
+
+.table {
+    margin: 0;
+}
+
+.sub_tittle {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background: none;
+    background-color: unset;
+    color: #212121;
+
+}
+
+p {
+    margin: 0px;
+    font-size: 14px;
+}
+
+a:link, a:visited, a:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF0000;
+}
+
+.no_padding {
+    padding: 0;
+}
+
+.socials {
+    margin-bottom: 20px;
+}
+
+.socials_fb:hover {
+    color: #212121
+}
+
+.socials_insta:hover {
+    color: #212121
+}
+
+.content {
+    background-color: #FFF;
+    min-height: 60vh;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 10px 7px;
+    line-height: 1.42857143;
+    border-top: 0 solid #ddd;
+    vertical-align: middle;
+}
+
+.px-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.thumbnail {
+    padding: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 0;
+    height: 350px;
+}
+
+.thumbnail img {
+    display: block;
+    width: 100%;
+
+    height: 200px;
+    object-fit: cover;
+}
+
+.thumbnail .captation {
+    padding: 5px 10px 10px 5px;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+
+.page_wrapper {
+	padding-left: 10%;
+	padding-right: 10%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+/* LOGIN SIDEBAR + UNLOG SIDEBAR */
+#top {
+    background-color: #257DE7;
+    width: 100%;
+}
+
+#unlog_sidebar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#unlog_sidebar li a {
+    display: block;
+    color: #FFF;
+    padding: 0px 18px;
+}
+
+#unlog_sidebar li a:hover {
+    background-color: #1f5eb5;
+}
+
+#unlog_sidebar li.register {
+    float: left;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #375900;
+    line-height: 50px;
+}
+
+#unlog_sidebar li.lostpw {
+    float: left;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #69020E;
+    line-height: 50px;
+}
+
+#unlog_sidebar li.facebook {
+    float: left;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: rgb(59, 89, 151);
+    line-height: 50px;
+}
+
+#log_sidebar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+#log_sidebar li a {
+    display: block;
+    color: #FFF;
+    padding: 0px 15px;
+}
+
+#log_sidebar li a:hover {
+    background-color: #1f5eb5;
+}
+
+#log_sidebar li.login {
+    float: left;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 18px 0 18px;
+}
+
+#log_sidebar li.coiny {
+    float: left;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-right: 1px solid #07477e;
+}
+
+#log_sidebar li.ucet {
+    float: left;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-right: 1px solid #07477e;
+}
+
+#log_sidebar li.odhlasit {
+    float: left;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#log_sidebar li.admin {
+    float: left;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-left: 1px solid #07477e;
+}
+
+.log_sidebar {
+    color: #FFF;
+    line-height: 49px;
+}
+
+@media (min-width: 441px) {
+    #log_sidebar li.premium {
+        display: none;
+    }
+}
+
+.sidebar_aktivni {
+    color: #FFF;
+    font-weight: bold;
+}
+
+.sidebar_neaktivni {
+    color: #212121;
+    font-weight: bold
+}
+
+.sidebar_dny {
+    color: #fbfbfb;
+    font-size: 10px;
+}
+
+.sidebar_account {
+    color: #FFF;
+    line-height: 50px;
+    float: right;
+    width: auto;
+}
+
+.sidebar_id {
+    color: #fbfbfb;
+    font-size: 9px;
+}
+
+.login_premium_ico {
+    color: #FFF;
+    padding-right: 7px;
+}
+
+.login_klub_ico {
+    color: #F0F0F0;
+    padding-right: 7px;
+}
+
+
+.login_ucet_ico {
+    color: #FFF;
+    padding-right: 7px;
+    font-size: 400px;
+}
+
+.login_nastaveni_ico {
+    color: #FFF;
+    padding-right: 7px;
+}
+
+
+.login_odhlasit_ico {
+    color: #FFF;
+    padding-right: 7px;
+}
+
+.odkaz_login_sidebar a {
+    color: #FFF;
+}
+
+.odkaz_login_sidebar:link, .odkaz_login_sidebar:visited, .odkaz_login_sidebar:active {
+    color: #FFF;
+}
+
+.odkaz_login_sidebar:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+/* END SIDEBAR + UNLOG SIDEBAR */
+
+/* MENU + logo */
+.navbar-inverse {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    background-color: #222;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: rgba(233, 235, 238, 0.5);
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(180deg, rgba(37, 125, 231, 1) 0%, rgba(32, 133, 200, 1) 85%, rgba(16, 78, 119, 1) 100%);
+}
+
+.navbar-inverse .navbar-nav > .red > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: white;
+    background-color: rgba(196,0,15,1);
+    background: linear-gradient(180deg, rgba(231,37,37,1) 0%, rgba(196,0,15,1) 85%, rgba(157,0,0,1) 100%);
+}
+
+.navbar-inverse .navbar-nav > .maxiclub > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: rgb(21, 157, 76);
+}
+
+.navbar-inverse {
+    background-image: none;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    line-height: 50px;
+    font-family: 'trebuchet ms';
+    font-size: 1.40em;
+    font-weight: bold;
+    color: #B5B5B5;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #FFFFFF;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 7px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+    margin-right: 0 !important;
+}
+
+
+
+.navbar-nav {
+    float: right;
+    margin-top: 0;
+}
+
+.navbar-form {
+    box-shadow: none;
+}
+
+.navbar-toggle {
+    margin-top: 24px;
+    margin-right: 10px;
+    background-color: #07477e;
+}
+
+.navbar-inverse .navbar-toggle {
+    margin-right: 30px;
+}
+
+.navbar-brand {
+    float: left;
+    height: auto;
+    width: auto;
+}
+
+.logo {
+    position: relative;
+    float: left;
+    height: 65px;
+    margin-left: 30px;
+}
+
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav > li > a {
+        float: none;
+        line-height: 25px;
+        margin-left: 0;
+
+    }
+
+    .navbar-nav {
+        float: none;
+        text-align: center;
+    }
+
+    .menu_live_active {
+        font-size: 10px;
+        color: red;
+    }
+    #log_sidebar li a {
+        background-color: unset;
+    }
+}
+
+/* END MENU + logo*/
+
+/* HLAVNI */
+.post_box {
+    padding: 10px 20px;
+    min-height: 140px;
+}
+
+.post_box:hover {
+}
+
+.post_box img {
+    float: left;
+    width: 200px;
+    height: 120px;
+    margin: 0 10px 0 0;
+    border: 1px solid #bebebe;
+    background: #050e2a;
+    display: inline-block;
+}
+
+.post_box:hover img {
+    box-shadow: 0.5px 0.5px 10px #000;
+    text-decoration: none;
+}
+
+.post_box_nadpis {
+    font-weight: bold;
+    color: #257DE7;
+    font-size: 13px;
+    padding-top:3px;
+    margin: 0;
+    min-height: 25px;
+}
+
+.post_datum {
+    margin: 0;
+    padding: 0;
+    font-size: 9px;
+    color: #212121;
+}
+
+.post_box p {
+    text-align: justify;
+    padding: 0px;
+    margin: 0;
+    font-size: 13px;
+    color: #212121;
+}
+
+@media (max-width: 441px) {
+    .post_box img {
+        width: 100% !important;
+        height: 100% !important;
+        margin-bottom: 5px;
+    }
+}
+
+.bg-zapas-NEXT {
+    background-color: #FFFFFF;
+}
+
+
+.bg-zapas-LIVE {
+    background-color: #fff0f5;
+}
+
+.bg-zapas-EARLY {
+    background-color: #FFFFFF;
+}
+
+.bg-zapas-END {
+    background-color: #ebebeb;
+}
+
+.hlavni_zapas_LIVE {
+    color: #FFF;
+    font-size: 11px;
+    background-color: #BA0710;
+}
+
+.hlavni_zapas_NEXT {
+    font-size: 11px;
+    background-color: #e6e6e6;
+    color: #666;
+}
+
+.hlavni_zapas_END {
+    color: #FFF;
+    font-size: 11px;
+    background-color: #666;
+}
+
+.hlavni_zapas_EARLY {
+    color: #FFF;
+    font-size: 11px;
+    background-color: #c48415;
+}
+
+.hlavni_zapas_stred_datum {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.hlavni_zapas_stred_vs {
+    color: #1a1a1a;
+    font-size: 20px;
+    line-height: 45px;
+    vertical-align: center;
+}
+
+.hlavni_zapas_stred_preview_stream {
+    font-size: 12px;
+}
+
+.hlavni_zapas_stred_ico_preview {
+    font-size: 14px;
+    color: green;
+    padding-right: 5px;
+}
+
+.hlavni_zapas_stred_ico_stream {
+    font-size: 200px;
+    color: #1a1a1a;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.hlavni_zapas_stred_soutez {
+    color: #06679C;
+}
+
+.hlavni_zapasy {
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    overflow: hidden;
+}
+
+.hlavni_zapasy_img {
+    width: 65px;
+    height: 65px;
+}
+
+
+.zapasek {
+    padding: 0.5rem;
+}
+
+.zapas-info {
+    margin: 0;
+    text-align: center;
+}
+
+.zapas-teams {
+    margin: 0;
+}
+
+.zapasy {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    color: #666;
+    border-radius: 10px;
+    padding: 0.2rem;
+    box-shadow: 0.5px 0.5px 10px black;
+    margin-bottom: 15px;
+}
+
+#soutez_zapasy {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 0.2rem;
+    box-shadow: 0.5px 0.5px 10px black;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.rounded {
+    border-radius: 1.5rem;
+}
+
+ .list_zapasy {
+     margin: 10px;
+     border-radius: 10px;
+     overflow: hidden;
+ }
+
+
+.soutez_zapas {
+    padding: 5px;
+     color: #000000;
+    overflow: hidden;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.soutez_late {
+    background: rgb(215, 215, 215);
+}
+.soutez_hlasoval {
+    background: rgb(209, 212, 231);
+}
+
+.soutez_tym {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 3px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: black;
+}
+
+.vyhra {
+    color: white;
+    background: rgb(71, 153, 17);
+    background: linear-gradient(129deg, rgba(71, 153, 17, 1) 0%, rgba(129, 179, 19, 1) 100%);
+}
+
+.prohra {
+    color: white;
+    background: rgb(176, 32, 32);
+    background: linear-gradient(129deg, rgba(176, 32, 32, 1) 0%, rgba(223, 80, 65, 1) 100%);
+}
+
+.hlasoval {
+    background: rgb(222, 131, 13);
+    background: linear-gradient(129deg, rgba(222, 131, 13, 1) 0%, rgba(244, 175, 35, 1) 100%);
+}
+
+a.soutez_tym:hover {
+    color: black;
+    background: rgb(222, 131, 13);
+    background: linear-gradient(129deg, rgba(222, 131, 13, 1) 0%, rgba(244, 175, 35, 1) 100%);
+}
+
+.tym_name {
+    font-weight: 600;
+}
+
+
+#soutez_zapasy h4 {
+    color: #ffffff;
+}
+
+
+.zapasy h4 {
+    color: white;
+    font-style: normal;
+    padding: 1rem;
+
+}
+
+.bg-gradient {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    color: #9e9e9e;
+}
+
+.alert {
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    #zapasy.in,
+    #zapasy.collapsing {
+        display: block !important;
+    }
+
+    .alert {
+        margin: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #zapasy.collapse {
+        display: block !important;
+        height: auto !important;
+    }
+    .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+    padding-right: 0;
+}
+
+}
+
+
+.img-team {
+    max-height: 30px;
+}
+
+.img-team-soutez {
+
+    padding-left: 5px;
+    max-height: 50px;
+}
+
+@media (min-width: 768px) {
+    .zapasy {
+        padding: 1.5rem;
+    }
+
+    .img-team {
+        max-height: 50px;
+    }
+    .img-team-soutez {
+        padding-left: 40px;
+        max-height: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .zapasy {
+        padding: 1.5rem;
+        margin-top: -50px;
+    }
+
+    .img-team-soutez {
+        padding-left: 40px;
+        max-height: 50px;
+    }
+
+    .zapasy h4 {
+        color: white;
+        font-style: normal;
+        padding: 0 0 1rem 0;
+
+    }
+}
+
+
+.odkaz_hlavni_zapasy:link, .odkaz_hlavni_zapasy:visited, .odkaz_hlavni_zapasy:active {
+    font-size: 15px;
+}
+
+.odkaz_hlavni_zapasy:hover {
+    color: red;
+}
+
+@media (max-width: 441px) {
+    .hlavni_zapas_stred_ico_preview {
+        font-size: 14px;
+        color: green;
+        padding-right: 5px;
+    }
+
+    .hlavni_zapas_stred_ico_stream {
+        font-size: 14px;
+        color: blue;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hlavni_zapas_stred_ico_preview {
+        font-size: 14px;
+        color: green;
+        padding-right: 5px;
+    }
+}
+
+/* END HLAVNI */
+
+/* TIKETY */
+.table_tikety {
+    width: 100%;
+}
+
+.table_tikety thead tr td {
+    color: #ffffff;
+    font-weight: 600;
+    background: rgb(32, 32, 32);
+    font-size: 0.90em;
+}
+
+.table_tikety tbody tr td {
+    color: #ffffff;
+    font-size: 0.90em;
+    font-weight: 600;
+}
+
+.table_tikety > tbody > tr > td, .table_tikety > tbody > tr > th, .table_tikety > tfoot > tr > td, .table_tikety > tfoot > tr > th, .table_tikety > thead > tr > td, .table_tikety > thead > tr > th {
+    padding: 17px;
+    line-height: 1.30;
+    vertical-align: middle;
+    border-bottom: solid 1px #111;
+}
+
+.table_tikety .foot {
+    background: #1e1e1e;
+}
+
+.table_tikety .nevyhodnoceno {
+    background: #323842;
+}
+
+
+.table_tikety .vyhra {
+    background: rgb(71, 153, 17);
+    background: linear-gradient(129deg, rgba(71, 153, 17, 1) 0%, rgba(129, 179, 19, 1) 100%);
+}
+
+.table_tikety .prohra {
+    background: rgb(176, 32, 32);
+    background: linear-gradient(129deg, rgba(176, 32, 32, 1) 0%, rgba(223, 80, 65, 1) 100%);
+}
+
+.table_tikety .vracen_vklad {
+    background: rgb(222, 131, 13);
+    background: linear-gradient(129deg, rgba(222, 131, 13, 1) 0%, rgba(244, 175, 35, 1) 100%);
+}
+
+.table_tikety_datum {
+    color: #000;
+    font-size: 1.10em;
+    font-weight: bold;
+    padding: 20px 0 5px 10px;
+}
+
+.text-white {
+    color: white;
+}
+
+a .text-white {
+    color: white;
+}
+a .text-white:hover {
+    color: white;
+    text-decoration: underline;
+}
+.tiket_popis {
+    text-align: justify;
+}
+
+.tiket_napoveda {
+    width: 190px;
+    float: right;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    border: 1px solid #000;
+    font-weight: bold;
+    font-size: 11px;
+    margin-top: -30px;
+}
+
+.odkaz_tiket_napoveda a {
+    color: #FFF;
+}
+
+.odkaz_tiket_napoveda:link, .odkaz_tiket_napoveda:visited, .odkaz_tiket_napoveda:active {
+    color: #FFF;
+}
+
+.odkaz_tiket_napoveda:hover {
+    color: #479911;
+    text-decoration: underline;
+}
+
+/* END TIKETY */
+
+/*  SOUTEZ  */
+.soutez_zapasy_najed:hover {
+    background-color: #DE830D;
+}
+
+.soutez_zapasy_nazev_tymu {
+    float: left;
+    padding-top: 6px;
+    text-align: left;
+}
+
+.soutez_zapasy_obrtymu {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -5px;
+}
+
+.soutez_zapasy_datum {
+    color: #1e1e1e;
+    font-weight: bold;
+}
+
+.soutez_tiket_ok {
+    background-color: #228A08;
+    color: white;
+}
+
+.soutez_stats_vyhra {
+    color: #298200;
+}
+
+.soutez_stats_prohra {
+    color: #C92500;
+}
+
+.soutez_stats_nevyhodnoceno {
+    color: #EDA509;
+}
+
+.soutez_stats_odkaz:link, .soutez_stats_odkaz:visited, .soutez_stats_odkaz:active {
+    color: #1C91B8;
+}
+
+.soutez_stats_odkaz:hover {
+    color: #FF0000;
+    text-decoration: none;
+}
+
+.soutez_klik:link, .soutez_klik:visited, .soutez_klik:active {
+    color: #000;
+}
+
+.soutez_klik:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.table_soutez th {
+    background: #1e1e1e;
+    color: #FFF;
+}
+
+
+.table_soutez > tbody > tr > td, .table_soutez > tbody > tr > th, .table_soutez > tfoot > tr > td, .table_soutez > tfoot > tr > th, .table_soutez > thead > tr > td, .table_soutez > thead > tr > th {
+    padding: 10px 7px;
+    line-height: 1.42857143;
+    border-top: 0px solid #ddd;
+    vertical-align: middle;
+}
+
+.table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 0px solid #ddd;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+    background-color: rgb(242, 242, 242);
+}
+
+.soutez_zapasy_tip_neaktivni {
+    background-color: #DBDBDB;
+}
+
+.soutez_tipy_table > tbody > tr > td, .soutez_tipy_table > tbody > tr > th, .soutez_tipy_table > tfoot > tr > td, .soutez_tipy_table > tfoot > tr > th, .soutez_tipy_table > thead > tr > td, .soutez_tipy_table > thead > tr > th {
+    padding: 13px;
+    line-height: 1.0;
+    vertical-align: middle;
+    border-bottom: solid 1px #111;
+    color: #000;
+}
+
+.soutez_tipy_ok {
+    color: green;
+}
+
+.soutez_tipy_ko {
+    color: red;
+}
+
+.odkaz_soutez_other:link, .odkaz_soutez_other:visited, .odkaz_soutez_other:active {
+    font-size: 13px;
+    color: #1665a8;
+}
+
+.odkaz_soutez_other:hover {
+    color: red;
+}
+
+/* END SOUTEZ */
+
+/*  Statistiky */
+.statistikyhl_tlacitko {
+    width: 100%;
+    padding: 40px 20px 20px 20px;
+    border-radius: 1.5rem;
+    color: white;
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    display: inline-block;
+    color: #ffffff;
+    font-size: 18px;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    cursor: hand;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.statistikyhl_tlacitko:hover {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(180deg, rgba(37, 125, 231, 1) 0%, rgba(32, 133, 200, 1) 85%, rgba(16, 78, 119, 1) 100%);
+}
+
+.statistikyhl_tlacitko:visited, .statistikyhl_tlacitko:active, .statistikyhl_tlacitko:link {
+    color: white;
+    position: relative;
+    top: 1px;
+    color: white;
+    text-decoration: none;
+}
+
+.statistikyhl_tlacitko h2 {
+    color: #FFF;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.statistiky_tlacitko {
+    padding: 27px 21px;
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+    color: white;
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    color: #9e9e9e;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 15px;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    cursor: hand;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.statistiky_tlacitko:hover {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(180deg, rgba(37, 125, 231, 1) 0%, rgba(32, 133, 200, 1) 85%, rgba(16, 78, 119, 1) 100%);
+}
+
+.statistiky_tlacitko:visited, .statistiky_tlacitko:active, .statistiky_tlacitko:link {
+    color: white;
+    position: relative;
+    top: 1px;
+    color: white;
+    text-decoration: none;
+}
+
+/* END statistiky */
+
+/* FOOTER */
+footer {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    padding: 20px;
+    color: #9e9e9e;
+}
+
+footer a:link, footer a:visited {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer .ftext {
+    color: #ffffff;
+
+    vertical-align: middle;
+    line-height: 26px;
+}
+
+/* END FOOTER */
+
+@media (max-width: 768px) {
+    .thumbnail {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .soutez_tym {
+        text-align: center;
+    }
+
+    #top {
+        background: rgb(37, 125, 231);
+        background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    }
+
+    .table_tikety > tbody > tr > td, .table_tikety > tbody > tr > th, .table_tikety > tfoot > tr > td, .table_tikety > tfoot > tr > th, .table_tikety > thead > tr > td, .table_tikety > thead > tr > th {
+        padding: 10px 10px 10px 10px;
+        line-height: 1.30;
+        vertical-align: middle;
+        border-bottom: solid 1px #111;
+    }
+
+
+}
+
+.navstats {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+}
+
+
+.navstatsbtn {
+    color: white;
+}
+
+.btn-primary {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+}
+
+.btn-primary:hover {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(180deg, rgba(37, 125, 231, 1) 0%, rgba(32, 133, 200, 1) 85%, rgba(16, 78, 119, 1) 100%);
+}
+
+/* INFO LIVE */
+.info_live_sazeni {
+    width: 100%;
+    background: rgb(231,37,37);
+background: linear-gradient(129deg, rgba(231,37,37,1) 0%, rgba(157,0,0,1) 100%);
+    position: relative;
+    color: #ffffff;
+    border-radius: 0 0 15px 15px;
+    overflow: hidden;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    z-index: 5;
+}
+
+
+.info_live_sazeni > .info_live_sazeni-title {
+    float: left;
+    width: auto;
+    display: inline-block;
+    background: rgba(157,0,0,1);
+    position: relative;
+}
+
+.info_live_sazeni > .info_live_sazeni-title > h2 {
+    display: inline-block;
+    margin: 0;
+    padding: 0 20px;
+    line-height: 39px;
+    font-size: 18px;
+    color: #FFF;
+    box-sizing: border-box;
+}
+
+.info_live_sazeni > .info_live_sazeni-title > span {
+    width: 0;
+    position: absolute;
+    right: -9px;
+    top: 9px;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent rgba(157,0,0,1);
+}
+
+.info_live_sazeni-text {
+    float: left;
+    line-height: 39px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.info_live_button:link, .info_live_button:visited, .info_live_button:active {
+    font-weight: bold;
+    color: white;
+    background-color: rgba(157,0,0,1);
+    padding-right: 8px;
+    line-height: 39px;
+    padding-left: 8px;
+    font-size: 15px;
+    float: right;
+}
+
+.info_live_button:hover {
+    background-color: rgb(231,37,37);
+    color: white;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+#header {
+    padding: 0;
+    margin: 0;
+    background-color: #d5d5d5;
+}
+    .info_live_sazeni {
+    width: 100%;
+    border-radius: 0;
+        box-shadow: none;
+    z-index: 1;
+}
+}
+
+/* END INFO LIVE */
+/* INFO PLATBA */
+.info_platba {
+    width: 100%;
+    height: 40px;
+    background: green;
+    position: relative;
+    border: solid 2px green;
+    overflow: hidden;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info_platba-text {
+    line-height: 39px;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .info_platba {
+        width: 100%;
+        height: auto;
+        background: #FFF;
+        position: relative;
+        border: solid 2px rgb(186, 7, 16);
+        overflow: visible;
+    }
+
+    .info_platba-text {
+        float: none;
+        line-height: normal;
+        padding-left: 20px;
+        font-size: 15px;
+    }
+}
+
+/* END INFO PLATBA */
+
+/* STREAM */
+.stream_pole_tym {
+    float: left;
+    width: 43%;
+    height: 160px;
+    text-align: center;
+}
+
+.stream_nazev_tym {
+    font-size: 16px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.stream_stred {
+    float: left;
+    width: 150px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.stream_stred_datum {
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+}
+
+.stream_stred_vs {
+    font-size: 40px;
+    font-weight: bold;
+    color: #FF3300;
+}
+
+.stream_stred_preview {
+    font-size: 10px;
+    font-weight: bold;
+    color: #FF0000;
+    padding-top: 10px;
+}
+
+.stream_info {
+    font-size: 9px;
+}
+
+.stream_chat_pinput {
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 5px;
+    background-color: #ccc;
+}
+
+.stream_chat_input {
+    width: 270px;
+    border: 1px solid #777;
+    font-size: 12px;
+}
+
+.stream_chat_zprava {
+    height: 20px;
+    padding: 3px;
+}
+
+.stream_chat_datum {
+    font-size: 9px;
+}
+
+.stream_chat_uzivatel {
+    font-size: 11px;
+    color: blue;
+    font-weight: bold;
+}
+
+.stream_chat_text {
+    font-size: 11px;
+}
+
+.table_stream_chat tr:nth-child(even) {
+    background: #E0E0E0;
+}
+
+.table_stream_chat tr:nth-child(odd) {
+    background: #EDEDED;
+}
+
+.stream_odkaz_preview:link, .stream_odkaz_preview:visited, .stream_odkaz_preview:active {
+    color: blue;
+}
+
+.stream_odkaz_preview:hover {
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+/*  CHAT */
+.chat_left {
+    width: 130px;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 15px;
+}
+
+.chat_span {
+    font-size: 13px;
+    font-weight: bold;
+    color: #0861D9;
+}
+
+.chat_span_admin {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.chat_datum {
+    font-size: 9px;
+}
+
+.chat_text {
+    background-color: #E6E6E6;
+    color: black;
+    text-align: justify;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.chat_text_zvyraz {
+    background-color: #B02020;
+    color: white;
+    text-align: justify;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.chat_text_zvyraz_tiket {
+    background-color: #FFFF00;
+    color: #000;
+    text-align: justify;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.chat_text_zvyraz_tiket2 {
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.chat_text_zvyraz_vstup {
+    background-color: orange;
+    color: #000;
+    text-align: justify;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.chat_input_box {
+    width: 840px;
+    height: 70px;
+    margin-left: 80px;
+}
+
+.chat_input_text {
+    float: left;
+    width: 720px;
+}
+
+.chat_input_button {
+    float: left;
+    width: 110px;
+}
+
+.chat_input_smiley {
+    float: right;
+    margin-right: 125px;
+}
+
+.chat_zprava_input {
+    width: 700px;
+    height: 20px;
+}
+
+.chat_zprava_input_z {
+    width: 300px;
+    height: 20px;
+    margin: 2px;
+}
+
+.chat_zprava_input_t {
+    width: 290px;
+    height: 20px;
+    margin: 2px;
+}
+
+.chat_zprava_input_k {
+    width: 50px;
+    height: 20px;
+    margin: 2px;
+}
+
+.chat_tikety_bottom {
+    margin-bottom: 20px;
+}
+
+.chat_tiket_stav {
+    padding-left: 10px;
+}
+
+.chat_text_tiket {
+    background-color: #323842;
+    text-align: justify;
+    padding: 5px;
+    border-radius: 6px;
+    color: #FFF;
+}
+
+.chat_text_tiket_ok {
+    background: rgb(71, 153, 17);
+    background: linear-gradient(129deg, rgba(71, 153, 17, 1) 0%, rgba(129, 179, 19, 1) 100%);
+    text-align: justify;
+    padding: 5px;
+    border-radius: 6px;
+    color: #FFF;
+}
+
+.chat_text_tiket_ko {
+    background: rgb(176, 32, 32);
+    background: linear-gradient(129deg, rgba(176, 32, 32, 1) 0%, rgba(223, 80, 65, 1) 100%);
+    text-align: justify;
+    padding: 5px;
+    border-radius: 6px;
+    color: #FFF;
+}
+
+.chat_text_tiket_vk {
+    background: rgb(222, 131, 13);
+    background: linear-gradient(129deg, rgba(222, 131, 13, 1) 0%, rgba(244, 175, 35, 1) 100%);
+    text-align: justify;
+    padding: 5px;
+    border-radius: 6px;
+    color: #FFF;
+}
+
+.chat_odkaz_tiket_stav {
+    color: #07b9ec;
+}
+
+.chat_odkaz_tiket_stav:link, .chat_odkaz_tiket_stav:visited, .chat_odkaz_tiket_stav:active {
+    color: #000;
+}
+
+.chat_odkaz_tiket_stav:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.chat_odkaz_tiket_stav_red {
+    color: #07b9ec;
+}
+
+.chat_odkaz_tiket_stav_red:link, .chat_odkaz_tiket_stav_red:visited, .chat_odkaz_tiket_stav_red:active {
+    color: #FF0000;
+}
+
+.chat_odkaz_tiket_stav_red:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.label_zapnoutzvuk {
+    padding-bottom: 10px;
+}
+
+.chat_statistiky {
+    padding-top: 10px;
+}
+
+.font_green {
+    color: green;
+}
+
+.font_red {
+    color: red;
+}
+
+/* LIVE */
+.live_vstup_umisteni {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.live_vstup_stav_box {
+    padding: 20px;
+    background: #666;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    border: 1px #000000 solid;
+    margin-top: 50px;
+    box-shadow: 0.5px 0.5px 10px black;
+}
+
+.live_vstup_offline {
+    color: red;
+}
+
+.live_vstup_online {
+    color: #9bc509;
+}
+
+.live_vstup_tlacitko {
+    margin-top: 50px;
+}
+
+.tlacitko_live_nastaveni {
+    padding: 10px;
+    border: 1px solid #333;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.tlacitko_live_nastaveni:hover {
+    background-color: #ccc;
+}
+
+/* COINY */
+.coiny_aktivace_box {
+    padding: 0 1.5%;
+    margin-bottom: 0px;
+}
+
+.odpocet {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 0.4em;
+  text-transform: uppercase;
+}
+
+.odpocet span {
+  display: block;
+  font-size: 4.0rem;
+}
+
+.modal-open {
+    padding-right: 0 !important
+}
+
+.premium_box {
+    padding: 10px 10px 15px 10px;
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    color: #9e9e9e;
+    border-radius: 10px;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+
+iframe {
+    position: absolute;
+    bottom: 0;
+}
+
+#stream {
+    position: relative;
+}
+
+.login_box {
+    padding: 10px 10px 10px 10px;
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    color: #9e9e9e;
+    border-radius: 10px;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+.coiny_tarif_nadpis {
+    color: #1665a8;;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.coiny_nazev {
+    color: #FFF;
+    font-weight: 600;
+    font-size: 20px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.coiny_text {
+    font-size: 14px;
+    line-height: 2;
+    color: #FFF;
+}
+
+
+.modal-tlacitko {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    white-space: normal;
+    background-color: white;
+    color: black;
+    padding: 8px 0 8px 0;
+    margin: 0;
+    border-radius: 1.5rem;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.modal-tlacitko:hover {
+    background-color: #f0f0f0;
+    color: black;
+    margin: 0;
+}
+
+
+.premium-tlacitko {
+    background-color: white;
+    color: black;
+    padding: 8px;
+    margin: 0 20px;
+    border-radius: 1.5rem;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.premium-tlacitko:hover {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 8px;
+    margin: 0 20px;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 1.5rem;
+}
+
+.btn_slevy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn_sleva {
+    flex-grow: 1;
+    padding: 20px 5px 20px 5px;
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    color: #ffffff!important;
+    margin: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+
+.btn_sleva:hover {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(180deg, rgba(37, 125, 231, 1) 0%, rgba(32, 133, 200, 1) 85%, rgba(16, 78, 119, 1) 100%);
+}
+
+
+
+.premium_rebuy {
+    padding: 10px 10px 10px 10px;
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+
+.premium_rebuy:hover {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(180deg, rgba(37, 125, 231, 1) 0%, rgba(32, 133, 200, 1) 85%, rgba(16, 78, 119, 1) 100%);
+}
+
+
+.coiny_aktivace_nedostatek {
+    background-color: #ccc;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.coiny_aktivace {
+    background-color: #1e1e1e;
+    padding: 8px;
+    margin: 0 20px;
+}
+
+.coiny_aktivace:hover {
+    background-color: green
+}
+
+
+
+@media (max-width: 992px) {
+    .coiny_aktivace_box {
+    }
+}
+
+@media (max-width: 768px) {
+    .coiny_aktivace_box {
+        float: left;
+    }
+    .zapasy {
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .coiny_aktivace_box {
+        float: left;
+        width: 100%;
+    }
+}
+
+
+/* LOGIN SIDEBAR */
+#login-dp {
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow: hidden;
+    background-color: #07477e;
+}
+
+#login-dp .help-block {
+    font-size: 12px;
+}
+
+#login-dp .bottom {
+    background-color: rgba(255, 255, 255, .8);
+    border-top: 1px solid #ddd;
+    clear: both;
+    padding: 14px;
+}
+
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+
+#unlogsidebarr {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right
+}
+
+#unlogsidebarr > li {
+    float: left;
+}
+
+#unlogsidebarr li a {
+    display: block;
+    color: #FFF;
+    padding: 15px 15px;
+}
+
+#unlogsidebarr li a:hover {
+    background-color: #1f5eb5;
+}
+
+#unlogsidebarr .jedna {
+    border-right: 1px solid #07477e;
+}
+
+#login-dp > li .help-block a {
+    padding: 7px;
+}
+
+/* LOGGED */
+@media (max-width: 533px) {
+    .deskop {
+        display: none;
+    }
+}
+
+@media (min-width: 533px) {
+    .mobile {
+        display: none;
+    }
+}
+
+.dropdown-menu {
+    background-color: #257DE7;
+
+}
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 100px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #FFF;
+    white-space: nowrap;
+    border-bottom: 1px solid #07477e;
+}
+
+.dropdown, .dropup {
+    position: relative;
+    display: inline-block;
+}
+
+.login_ucet_nabidka {
+    color: #FFF;
+    padding-right: 7px;
+}

@@ -1,0 +1,380 @@
+@font-face {
+    font-family: "IndustryMedium";
+    src: url('./industry/Industry-Light.ttf') format('truetype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "IndustryMedium";
+    src: url('./industry/Industry-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "IndustryMedium";
+    src: url('./industry/Industry-Black.ttf') format('truetype');
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: "IndustryMedium";
+    src: url('./industry/Industry-Medium.ttf') format('truetype');
+    font-weight: normal;
+}
+
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x: hidden;
+    margin: 0;
+    height: 100%;
+    background-color: black;
+    font-family: "IndustryMedium", "Roboto", "Nunito Sans", sans-serif, -apple-system, BlinkMacSystem, Font, "Segoe UI", "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.nav {
+    width: 100%;
+    text-align: center;
+    height: 70px;
+    padding: 0.5rem;
+    background-color: #303030 !important;
+    border-bottom: #257de7 solid 4px;
+    box-shadow: 0rem 2rem 3rem rgba(0, 0, 0, 0.175) !important;
+    z-index: 10;
+}
+
+.nav img {
+    position: relative;
+    width: auto;
+    height: 80px;
+}
+
+#preVideo {
+    position: fixed;
+    top: 70px;
+    left: 50%;
+    max-height: 75vh;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(0);
+    -ms-transform: translateX(-50%) translateY(0);
+    transform: translateX(-50%) translateY(0);
+    object-fit: cover;
+    background-size: cover;
+}
+
+.cta-banner {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 100%;
+    padding-top: 0.7rem;
+
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-bottom: 0.7rem;
+    background: url('./bannerlong.jpg') no-repeat;
+    background-position: right center;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(34, 34, 34, 0.15) !important;
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+    transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.cta-banner:hover {
+    background-position: center center;
+    text-decoration: none;
+    -webkit-transition-property: background-position, -webkit-transform;
+    transition-property: background-position, -webkit-transform;
+    transition-property: transform, background-position;
+    transition-property: transform, background-position, -webkit-transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+    transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    color: white;
+    text-align: center;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center !important;
+    align-items: center !important;
+}
+
+.card-text {
+    font-weight: 200;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+.card-text p {
+    margin: 0;
+}
+
+.card-img {
+    display: none;
+}
+
+.btn-primary {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: 0;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    font-weight: 600;
+    box-shadow: 0 10px 25px -10px #1870da;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    border-radius: 1.5rem !important;
+    padding: 0.5rem 1rem;
+    font-size: 1.171875rem;
+    line-height: 1.5;
+    color: #fff;
+    background: #257de7 -webkit-gradient(linear, left top, left bottom, from(#256fc9), to(#257de7)) repeat-x;
+    background: #257de7 linear-gradient(180deg, #256fc9, #257de7) repeat-x;
+    border-color: #257de7;
+    text-align: center;
+}
+
+.btn-white {
+    display: block;
+    width: 100%;
+    color: #222;
+    background: #fff -webkit-gradient(linear, left top, left bottom, from(#dedede), to(#fff)) repeat-x;
+    background: #fff linear-gradient(180deg, #dedede, #fff) repeat-x;
+    border-color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border-radius: 1.5rem !important;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    font-weight: 600;
+    box-shadow: 0 10px 25px -10px #f2f2f2;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+footer {
+    display: flex;
+    background-color: #303030 !important;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+
+ul#countdown {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2px 0 10px 0;
+
+    color: #257de7;
+    border: 1px solid #adafb2;
+    border-width: 1px 0;
+    overflow: hidden;
+    font-family: "IndustryMedium", "Roboto", "Nunito Sans", sans-serif, -apple-system, BlinkMacSystem, Font, "Segoe UI", "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+}
+
+ul#countdown li {
+    margin: 0 -3px 0 0;
+    padding: 0;
+    display: inline-block;
+    width: 24%;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+ul#countdown li .label {
+    color: #adafb2;
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    z-index: 555;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.modal.show {
+    display: flex;
+}
+
+h2 {
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+h3 {
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.modal h1 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.modal .card {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #444;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.modal .event {
+    padding: 1rem;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #preVideo {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #preVideo {
+        height: auto;
+    }
+}
+
+@media (min-width: 1440px) {
+    .cta-banner {
+        width: fit-content;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .card-text {
+        font-size: 1.5rem;
+    }
+    .modal .card {
+        max-width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        max-height: 95vh;
+        border-radius: 0%;
+    }
+
+    .modal .card .event {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .cta-banner {
+        padding: 0.7rem;
+        width: fit-content;
+    }
+
+    .card-body {
+        -webkit-box-orient: horizontal !important;
+        -webkit-box-direction: normal !important;
+        flex-direction: row !important;
+        padding: 1.25rem;
+    }
+
+    .card-text {
+
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .card-img {
+        width: 140px;
+        display: block;
+    }
+
+    .nav {
+        height: 70px;
+        padding: 1rem;
+    }
+
+    .nav img {
+        top: -10px;
+    }
+
+    ul#countdown {
+        width: 50%;
+    }
+
+    #preVideo {
+        top: 70px;
+        max-width: 50%;
+    }
+
+    ul#countdown li {
+        font-size: 3rem;
+    }
+
+    ul#countdown li .label {
+        font-size: 1.1rem;
+    }
+}

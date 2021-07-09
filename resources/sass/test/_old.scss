@@ -1,0 +1,892 @@
+
+.table-responsive {
+    border-radius: 1rem;
+}
+
+
+.panel-primary > .panel-heading {
+    background-color: rgb(22, 100, 224);
+    font-size: 16px;
+}
+
+.panel-body {
+    line-height: 2;
+    font-size: 15px;
+}
+
+#chart_div2 {
+    overflow: hidden;
+}
+
+.page_tittle {
+    font-weight: bold;
+    color: #FFF;
+    font-size: 2.2em;
+    text-align: center;
+
+    margin-top: $spacer*2;
+    margin-bottom: $spacer*1;
+}
+
+.table {
+    margin: 0;
+}
+
+.sub_tittle {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background: none;
+    background-color: unset;
+    color: #212121;
+
+}
+
+.socials {
+    margin-bottom: 20px;
+}
+
+.socials_fb:hover {
+    color: #212121
+}
+
+.socials_insta:hover {
+    color: #212121
+}
+
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 10px 7px;
+    line-height: 1.42857143;
+    border-top: 0 solid #ddd;
+    vertical-align: middle;
+}
+
+.bg-zapas-NEXT {
+    background-color: #FFFFFF;
+}
+
+
+.bg-zapas-LIVE {
+    background-color: #fff0f5;
+}
+
+.bg-zapas-EARLY {
+    background-color: #FFFFFF;
+}
+
+.bg-zapas-END {
+    background-color: #ebebeb;
+}
+
+.hlavni_zapas_LIVE {
+    color: #FFF;
+    font-size: 11px;
+    background-color: #BA0710;
+}
+
+.hlavni_zapas_NEXT {
+    font-size: 11px;
+    background-color: #e6e6e6;
+    color: #666;
+}
+
+.hlavni_zapas_END {
+    color: #FFF;
+    font-size: 11px;
+    background-color: #666;
+}
+
+.hlavni_zapas_EARLY {
+    color: #FFF;
+    font-size: 11px;
+    background-color: #c48415;
+}
+
+.hlavni_zapas_stred_datum {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.hlavni_zapas_stred_vs {
+    color: #1a1a1a;
+    font-size: 20px;
+    line-height: 45px;
+    vertical-align: center;
+}
+
+.hlavni_zapas_stred_preview_stream {
+    font-size: 12px;
+}
+
+.hlavni_zapas_stred_ico_preview {
+    font-size: 14px;
+    color: green;
+    padding-right: 5px;
+}
+
+.hlavni_zapas_stred_ico_stream {
+    font-size: 200px;
+    color: #1a1a1a;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.hlavni_zapas_stred_soutez {
+    color: #06679C;
+}
+
+.hlavni_zapasy {
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    overflow: hidden;
+}
+
+.hlavni_zapasy_img {
+    width: 65px;
+    height: 65px;
+}
+
+
+.zapasek {
+    padding: 0.5rem;
+}
+
+.zapas-info {
+    margin: 0;
+    text-align: center;
+}
+
+.zapas-teams {
+    margin: 0;
+}
+
+.zapasy-live {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    color: #666;
+    border-radius: 0 0 10px 10px;
+    padding: 0.2rem;
+    box-shadow: 0px 0.5px 10px black;
+    margin-bottom: 15px;
+}
+
+.zapasy {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    color: #666;
+    border-radius: 10px;
+    padding: 0.2rem;
+    box-shadow: 0.5px 0.5px 10px black;
+    margin-bottom: 15px;
+}
+
+#soutez_zapasy {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 0.2rem;
+    box-shadow: 0.5px 0.5px 10px black;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+
+.list_zapasy {
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.soutez_zapas {
+    padding: 5px;
+    color: #000000;
+    overflow: hidden;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.soutez_late {
+    background: rgb(215, 215, 215);
+}
+
+.soutez_hlasoval {
+    background: rgb(209, 212, 231);
+}
+
+.soutez_tym {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 3px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: black;
+}
+
+.vyhra {
+    color: white;
+    background: rgb(71, 153, 17);
+    background: linear-gradient(129deg, rgba(71, 153, 17, 1) 0%, rgba(129, 179, 19, 1) 100%);
+}
+
+.prohra {
+    color: white;
+    background: rgb(176, 32, 32);
+    background: linear-gradient(129deg, rgba(176, 32, 32, 1) 0%, rgba(223, 80, 65, 1) 100%);
+}
+
+.hlasoval {
+    background: rgb(222, 131, 13);
+    background: linear-gradient(129deg, rgba(222, 131, 13, 1) 0%, rgba(244, 175, 35, 1) 100%);
+}
+
+a.soutez_tym:hover {
+    color: black;
+    background: rgb(222, 131, 13);
+    background: linear-gradient(129deg, rgba(222, 131, 13, 1) 0%, rgba(244, 175, 35, 1) 100%);
+}
+
+.tym_name {
+    font-weight: 600;
+}
+
+
+#soutez_zapasy h4 {
+    color: #ffffff;
+}
+
+
+.zapasy h4 {
+    color: white;
+    font-style: normal;
+    padding: 1rem;
+}
+
+
+.zapasy-live h4 {
+    color: white;
+    font-style: normal;
+    padding: 1rem;
+}
+
+.bg-gradient {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    #zapasy.in,
+    #zapasy.collapsing {
+        display: block !important;
+    }
+
+    .alert {
+        margin: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #zapasy.collapse {
+        display: block !important;
+        height: auto !important;
+    }
+
+    .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+        padding-right: 0;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .zapasy {
+        padding: 1.5rem;
+    }
+
+    .zapasy-live {
+        padding: 0 1.0rem 1.0rem 1.0rem;
+    }
+
+    .img-team {
+        max-height: 50px;
+    }
+
+    .img-team-soutez {
+        padding-left: 40px;
+        max-height: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .zapasy {
+        padding: 1.5rem;
+        margin-top: -50px;
+    }
+
+    .zapasy-live {
+        padding: 1.5rem 1.0rem 1.0rem 1.0rem;
+    }
+
+    .img-team-soutez {
+        padding-left: 40px;
+        max-height: 50px;
+    }
+
+    .zapasy h4 {
+        color: white;
+        font-style: normal;
+        padding: 0 0 1rem 0;
+    }
+
+    .zapasy-live h4 {
+        color: white;
+        font-style: normal;
+        padding: 0 0 1rem 0;
+    }
+}
+
+
+.odkaz_hlavni_zapasy:link, .odkaz_hlavni_zapasy:visited, .odkaz_hlavni_zapasy:active {
+    font-size: 15px;
+}
+
+.odkaz_hlavni_zapasy:hover {
+    color: red;
+}
+
+@media (max-width: 441px) {
+    .hlavni_zapas_stred_ico_preview {
+        font-size: 14px;
+        color: green;
+        padding-right: 5px;
+    }
+
+    .hlavni_zapas_stred_ico_stream {
+        font-size: 14px;
+        color: blue;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hlavni_zapas_stred_ico_preview {
+        font-size: 14px;
+        color: green;
+        padding-right: 5px;
+    }
+}
+
+/* END HLAVNI */
+
+/* TIKETY */
+.table_tikety {
+    width: 100%;
+}
+
+.table_tikety thead tr td {
+    color: #ffffff;
+    font-weight: 600;
+    background: $dark;
+    font-size: 0.90em;
+}
+
+.table_tikety tbody tr td {
+    color: #ffffff;
+    font-size: 0.90em;
+    font-weight: 600;
+}
+
+.table_tikety > tbody > tr > td, .table_tikety > tbody > tr > th, .table_tikety > tfoot > tr > td, .table_tikety > tfoot > tr > th, .table_tikety > thead > tr > td, .table_tikety > thead > tr > th {
+    padding: 17px;
+    line-height: 1.30;
+    vertical-align: middle;
+    border-bottom: solid 1px #111;
+}
+
+.table_tikety .foot {
+    background: #1e1e1e;
+}
+
+.table_tikety .nevyhodnoceno {
+    background: #323842;
+}
+
+
+.table_tikety .vyhra {
+    background: rgb(71, 153, 17);
+    background: linear-gradient(129deg, rgba(71, 153, 17, 1) 0%, rgba(129, 179, 19, 1) 100%);
+}
+
+.table_tikety .prohra {
+    background: rgb(176, 32, 32);
+    background: linear-gradient(129deg, rgba(176, 32, 32, 1) 0%, rgba(223, 80, 65, 1) 100%);
+}
+
+.table_tikety .vracen_vklad {
+    background: rgb(222, 131, 13);
+    background: linear-gradient(129deg, rgba(222, 131, 13, 1) 0%, rgba(244, 175, 35, 1) 100%);
+}
+
+.globalStat {
+    margin-bottom: 2rem;
+}
+
+.globalStat:hover {
+    color: black;
+}
+
+.globalStatTable {
+    padding-top: 5px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+.table_tikety_datum {
+    color: #000;
+    font-size: 1.10em;
+    font-weight: bold;
+    padding: 20px 10px 5px 10px;
+}
+
+
+.tiket_popis {
+    text-align: justify;
+}
+
+.tiket_napoveda {
+    width: 190px;
+    float: right;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    border: 1px solid #000;
+    font-weight: bold;
+    font-size: 11px;
+    margin-top: -30px;
+}
+
+.odkaz_tiket_napoveda a {
+    color: #FFF;
+}
+
+.odkaz_tiket_napoveda:link, .odkaz_tiket_napoveda:visited, .odkaz_tiket_napoveda:active {
+    color: #FFF;
+}
+
+.odkaz_tiket_napoveda:hover {
+    color: #479911;
+    text-decoration: underline;
+}
+
+/* END TIKETY */
+
+/*  SOUTEZ  */
+.soutez_zapasy_najed:hover {
+    background-color: #DE830D;
+}
+
+.soutez_zapasy_nazev_tymu {
+    float: left;
+    padding-top: 6px;
+    text-align: left;
+}
+
+.soutez_zapasy_obrtymu {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -5px;
+}
+
+.soutez_zapasy_datum {
+    color: #1e1e1e;
+    font-weight: bold;
+}
+
+.soutez_tiket_ok {
+    background-color: #228A08;
+    color: white;
+}
+
+.soutez_stats_vyhra {
+    color: #298200;
+}
+
+.soutez_stats_prohra {
+    color: #C92500;
+}
+
+.soutez_stats_nevyhodnoceno {
+    color: #EDA509;
+}
+
+.soutez_stats_odkaz:link, .soutez_stats_odkaz:visited, .soutez_stats_odkaz:active {
+    color: #1C91B8;
+}
+
+.soutez_stats_odkaz:hover {
+    color: #FF0000;
+    text-decoration: none;
+}
+
+.soutez_klik:link, .soutez_klik:visited, .soutez_klik:active {
+    color: #000;
+}
+
+.soutez_klik:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.table_soutez th {
+    background: $dark;
+    color: #FFF;
+}
+
+
+.table_soutez > tbody > tr > td, .table_soutez > tbody > tr > th, .table_soutez > tfoot > tr > td, .table_soutez > tfoot > tr > th, .table_soutez > thead > tr > td, .table_soutez > thead > tr > th {
+    padding: 10px 7px;
+    line-height: 1.42857143;
+    border-top: 0px solid #ddd;
+    vertical-align: middle;
+}
+
+.table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 0px solid #ddd;
+}
+
+
+.soutez_zapasy_tip_neaktivni {
+    background-color: #DBDBDB;
+}
+
+.soutez_tipy_table > tbody > tr > td, .soutez_tipy_table > tbody > tr > th, .soutez_tipy_table > tfoot > tr > td, .soutez_tipy_table > tfoot > tr > th, .soutez_tipy_table > thead > tr > td, .soutez_tipy_table > thead > tr > th {
+    padding: 13px;
+    line-height: 1.0;
+    vertical-align: middle;
+    border-bottom: solid 1px #111;
+    color: #000;
+}
+
+.soutez_tipy_ok {
+    color: green;
+}
+
+.soutez_tipy_ko {
+    color: red;
+}
+
+.odkaz_soutez_other:link, .odkaz_soutez_other:visited, .odkaz_soutez_other:active {
+    font-size: 13px;
+    color: #1665a8;
+}
+
+.odkaz_soutez_other:hover {
+    color: red;
+}
+
+/* END SOUTEZ */
+.statistikygloval_tlacitko {
+    width: 100%;
+    padding: 40px 20px 20px 20px;
+    border-radius: 1.5rem;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 18px;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    cursor: hand;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+/*  Statistiky */
+.statistikyhl_tlacitko {
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    border-radius: 1.5rem;
+    color: white;
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    display: inline-block;
+    color: #ffffff;
+    font-size: 18px;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    cursor: hand;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    h2 {
+       margin: 0;
+    }
+}
+
+.statistikyhl_tlacitko:hover {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(180deg, rgba(37, 125, 231, 1) 0%, rgba(32, 133, 200, 1) 85%, rgba(16, 78, 119, 1) 100%);
+}
+
+.statistikyhl_tlacitko:visited, .statistikyhl_tlacitko:active, .statistikyhl_tlacitko:link {
+    color: white;
+    position: relative;
+    top: 1px;
+    color: white;
+    text-decoration: none;
+}
+
+.statistikyhl_tlacitko h2 {
+    color: #FFF;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.statistiky_tlacitko {
+    padding: 27px 21px;
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+    color: white;
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    color: #ffffff;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 15px;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    cursor: hand;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+.statistiky_tlacitko:hover {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(180deg, rgba(37, 125, 231, 1) 0%, rgba(32, 133, 200, 1) 85%, rgba(16, 78, 119, 1) 100%);
+}
+
+.statistiky_tlacitko:visited, .statistiky_tlacitko:active, .statistiky_tlacitko:link {
+    color: white;
+    position: relative;
+    top: 1px;
+    text-decoration: none;
+}
+
+/* END statistiky */
+
+/* FOOTER */
+footer {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    padding: 20px;
+    color: #ffffff;
+    margin-top: auto;
+}
+
+footer a:link, footer a:visited {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer .ftext {
+    color: #ffffff;
+
+    vertical-align: middle;
+    line-height: 26px;
+}
+
+/* END FOOTER */
+
+@media (max-width: 768px) {
+    .thumbnail {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .soutez_tym {
+        text-align: center;
+    }
+
+    #top {
+        background: rgb(37, 125, 231);
+        background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    }
+
+    .table_tikety > tbody > tr > td, .table_tikety > tbody > tr > th, .table_tikety > tfoot > tr > td, .table_tikety > tfoot > tr > th, .table_tikety > thead > tr > td, .table_tikety > thead > tr > th {
+        padding: 10px 10px 10px 10px;
+        line-height: 1.30;
+        vertical-align: middle;
+        border-bottom: solid 1px #111;
+    }
+
+
+}
+
+.navstats {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+}
+
+
+.navstatsbtn {
+    color: white;
+}
+
+
+._platnost {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.premium_box {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    color: #ffffff;
+    border-radius: 10px;
+}
+.no-shadow {
+    box-shadow: none!important;
+}
+
+.premium_box_black {
+    padding: 10px 10px 15px 10px;
+    background: #5a5c69;
+    background: linear-gradient(125deg, #444444 10%, #000000 100%);
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+
+.modal-tlacitko {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    white-space: normal;
+    background-color: white;
+    color: black;
+    padding: 8px 0 8px 0;
+    margin: 0;
+    border-radius: 1.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+}
+
+.bg-premium-gradient {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, $premium 0%, #0ac3ee 100%);
+    color: white;
+}
+
+.bg-live-gradient {
+    background: $live;
+    background: linear-gradient(132deg, #387E27 0%, #7ac22c 100%);
+    color: white;
+}
+
+.bg-mega-gradient {
+    background: $mega;
+    background: linear-gradient(132deg, #b4961f, #d7c700);
+    color: white;
+}
+
+.bg-allin-gradient {
+    background: $allin;
+    background: linear-gradient(132deg, #7e2727, #cd3d11);
+    color: white;
+}
+
+
+.login_box {
+    padding: 10px 10px 10px 10px;
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+
+.premium-tlacitko {
+    background-color: white;
+    color: black;
+    padding: 8px;
+    margin: 0 20px;
+    border-radius: 1.5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+.premium-tlacitko:hover {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 8px;
+    margin: 0 20px;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 1.5rem;
+}
+
+.btn_slevy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn_sleva {
+    flex-grow: 1;
+    padding: 20px 5px 20px 5px;
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    color: #ffffff !important;
+    margin: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+
+.btn_sleva:hover {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(180deg, rgba(37, 125, 231, 1) 0%, rgba(32, 133, 200, 1) 85%, rgba(16, 78, 119, 1) 100%);
+}
+
+
+.premium_rebuy {
+    padding: 10px 10px 10px 10px;
+    background: rgb(37, 125, 231);
+    background: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+
+.premium_rebuy:hover {
+    background: rgb(37, 125, 231);
+    background: linear-gradient(180deg, rgba(37, 125, 231, 1) 0%, rgba(32, 133, 200, 1) 85%, rgba(16, 78, 119, 1) 100%);
+}
+

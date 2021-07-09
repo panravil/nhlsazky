@@ -1,0 +1,55 @@
+// Background Gradient Utilities
+
+@each $color, $value in $theme-colors {
+  .bg-gradient-#{$color} {
+    background-color: $value;
+    background-image: linear-gradient(180deg, $value 10%, darken($value, 15%) 100%);
+    background-size: cover;
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .bg-#{$color}-gradient {
+    background-color: $value;
+    background-image: linear-gradient(125deg, $value 10%, adjust-hue($value, -33deg) 100%);
+    background-size: cover;
+  }
+}
+
+
+.bg-premium-gradient {
+    background-color:  rgba(37, 125, 231, 1);
+    background-image: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    background-size: cover;
+}
+
+.bg-mega-gradient {
+    background-color: #7e2727;
+    background-image: linear-gradient(132deg,#7e2727,#160707);
+    background-size: cover;
+}
+
+.bg-live-gradient {
+    background-color: rgb(56, 126, 39);
+    background-image: linear-gradient(132deg, rgb(56, 126, 39) 0%, rgb(22, 7, 7) 100%);
+    background-size: cover;
+}
+.bg-allin-gradient {
+    background-color: #5a5c69;
+    background-image: linear-gradient(125deg, #5a5c69 10%, #2d2d2d 100%);
+    background-size: cover;
+}
+
+.bg-dark-gradient {
+    background-color:  rgba(37, 125, 231, 1);
+    background-image: linear-gradient(132deg, rgba(37, 125, 231, 1) 0%, rgba(19, 63, 116, 1) 100%);
+    background-size: cover;
+}
+
+// Grayscale Background Utilities
+
+@each $level, $value in $grays {
+  .bg-gray-#{$level} {
+    background-color: $value !important;
+  }
+}

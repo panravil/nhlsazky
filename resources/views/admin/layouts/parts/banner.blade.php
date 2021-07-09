@@ -1,0 +1,1 @@
+resources/views/admin/layouts/parts/banner.blade.php

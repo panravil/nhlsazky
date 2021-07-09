@@ -1,0 +1,257 @@
+
+@font-face {
+    font-family: "IndustryMedium";
+    src: url('/fonts/industry/Industry-Light.ttf') format('truetype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "IndustryMedium";
+    src: url('/fonts/industry/Industry-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "IndustryMedium";
+    src: url('/fonts/industry/Industry-Black.ttf') format('truetype');
+    font-weight: bolder;
+}
+@font-face {
+    font-family: "IndustryMedium";
+    src: url('/fonts/industry/Industry-Medium.ttf') format('truetype');
+    font-weight: normal;
+}
+
+
+// Override Bootstrap's Sass default variables
+//
+// Nearly all variables in Bootstrap are written with the `!default` flag.
+// This allows you to override the default values of those variables before
+// you import Bootstrap's source Sass files.
+//
+// Overriding the default variable values is the best way to customize your
+// CSS without writing _new_ styles. For example, change you can either change
+// `$body-color` or write more CSS that override's Bootstrap's CSS like so:
+// `body { color: red; }`.
+
+
+//
+// Override Bootstrap here
+//
+
+// Toggle global options
+$enable-gradients: true;
+$enable-shadows: true;
+// Darkly 4.5.3
+// Bootswatch
+
+//
+// Color system
+//
+
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #ebebeb !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #888 !default;
+$gray-700: #444444 !default;
+$gray-800: #303030 !default;
+$gray-900: #222 !default;
+$black: #000 !default;
+
+$blue: #257de7 !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #e74c3c !default;
+$orange: #fd7e14 !default;
+$yellow: #f39c12 !default;
+$green: #00bc8c !default;
+$teal: #20c997 !default;
+$cyan: #3498db !default;
+
+$primary: $blue !default;
+$secondary: $gray-700 !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-200 !default;
+$dark: $gray-800 !default;
+$premium: $blue!default;
+$mega: #7e2727!default;
+$live: #387E27!default;
+$allin: #444444!default;
+
+$theme-colors: (
+    "white": $white,
+    "black": $black,
+    "premium": $premium,
+    "mega": $mega,
+    "live": $live,
+    "allin": $allin,
+);
+
+$yiq-contrasted-threshold: 175 !default;
+
+// Body
+
+$body-bg: $gray-900 !default;
+$body-color: $white !default;
+
+// Links
+
+$link-color: lighten($primary, 20%) !default;
+
+// Fonts
+
+// stylelint-disable-next-line value-keyword-case
+$font-family-sans-serif: 'IndustryMedium', 'Roboto', 'Nunito Sans', sans-serif, -apple-system, BlinkMacSystem, Font, "Segoe UI", "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-size-base: .9375rem !default;
+$font-size-sm: $font-size-base * .88 !default;
+$h1-font-size: 3rem !default;
+$h2-font-size: 2.5rem !default;
+$h3-font-size: 2rem !default;
+$text-muted: $gray-600 !default;
+
+// Tables
+
+$table-accent-bg: $gray-800 !default;
+$table-border-color: $gray-700 !default;
+
+// Forms
+
+$input-border-color: $body-bg !default;
+$input-group-addon-color: $gray-500 !default;
+$input-group-addon-bg: $gray-700 !default;
+$custom-file-color: $gray-500 !default;
+$custom-file-border-color: $body-bg !default;
+
+// Dropdowns
+
+$dropdown-bg: $gray-900 !default;
+$dropdown-border-color: $gray-700 !default;
+$dropdown-divider-bg: $gray-700 !default;
+$dropdown-link-color: $white !default;
+$dropdown-link-hover-color: $white !default;
+$dropdown-link-hover-bg: $primary !default;
+
+// Navs
+
+$nav-link-padding-x: 2rem !default;
+$nav-link-disabled-color: $gray-500 !default;
+$nav-tabs-border-color: $gray-700 !default;
+$nav-tabs-link-hover-border-color: $nav-tabs-border-color $nav-tabs-border-color transparent !default;
+$nav-tabs-link-active-color: $white !default;
+$nav-tabs-link-active-border-color: $nav-tabs-border-color $nav-tabs-border-color transparent !default;
+
+// Navbar
+
+$navbar-padding-y: 1rem !default;
+$navbar-dark-color: rgba($white, .6) !default;
+$navbar-dark-hover-color: $white !default;
+$navbar-light-color: rgba($gray-900, .7) !default;
+$navbar-light-hover-color: $gray-900 !default;
+$navbar-light-active-color: $gray-900 !default;
+$navbar-light-toggler-border-color: rgba($gray-900, .1) !default;
+
+// Pagination
+
+$pagination-color: $white !default;
+$pagination-bg: $primary !default;
+$pagination-border-width: 0 !default;
+$pagination-border-color: transparent !default;
+$pagination-hover-color: $white !default;
+$pagination-hover-bg: lighten($primary, 10%) !default;
+$pagination-hover-border-color: transparent !default;
+$pagination-active-bg: $pagination-hover-bg !default;
+$pagination-active-border-color: transparent !default;
+$pagination-disabled-color: $white !default;
+$pagination-disabled-bg: darken($primary, 15%) !default;
+$pagination-disabled-border-color: transparent !default;
+
+// Jumbotron
+
+$jumbotron-bg: $gray-800 !default;
+
+// Cards
+
+$card-cap-bg: $gray-700 !default;
+$card-bg: $gray-800 !default;
+
+// Popovers
+
+$popover-bg: $gray-800 !default;
+$popover-header-bg: $gray-700 !default;
+
+// Toasts
+
+$toast-background-color: $gray-700 !default;
+$toast-header-background-color: $gray-800 !default;
+
+// Modals
+
+$modal-content-bg: $gray-800 !default;
+$modal-content-border-color: $gray-700 !default;
+$modal-header-border-color: $gray-700 !default;
+
+// Progress bars
+
+$progress-bg: $gray-700 !default;
+
+// List group
+
+$list-group-bg: $gray-800 !default;
+$list-group-border-color: $gray-700 !default;
+$list-group-hover-bg: $gray-700 !default;
+
+// Breadcrumbs
+
+$breadcrumb-bg: $gray-700 !default;
+
+// Close
+
+$close-color: $white !default;
+$close-text-shadow: none !default;
+
+// Code
+
+$pre-color: inherit !default;
+
+// Shadows
+$box-shadow-sm: 0 0.125rem 0.25rem 0 rgba($gray-900, .2) !default;
+$box-shadow: 0 0.15rem 1.75rem 0 rgba($gray-900, .15) !default;
+// $box-shadow-lg: 0 1rem 3rem rgba($black, .175) !default;
+
+// Borders Radius
+$border-radius: 1.5rem !default;
+$border-color: darken($gray-200, 2%);
+
+//
+// Bring in Bootstrap
+//
+
+// Option 1
+//
+// Import all of Bootstrap's CSS
+
+// @import "bootstrap/scss/bootstrap";
+
+// Option 2
+//
+// Import just the styles you need. Note that some stylesheets are required no matter what.
+
+// Import Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "global";
+@import "bootswatch";
+@import "navbar";
+@import "header";
+@import "articles";
+@import "old";
+@import "testimonials";
+@import "slider";
+@import "buttons";
+

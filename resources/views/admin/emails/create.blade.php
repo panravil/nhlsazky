@@ -1,0 +1,1 @@
+resources/views/admin/emails/create.blade.php

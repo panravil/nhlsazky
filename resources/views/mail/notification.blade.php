@@ -1,0 +1,1 @@
+resources/views/mail/notification.blade.php

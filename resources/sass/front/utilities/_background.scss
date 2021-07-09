@@ -1,0 +1,29 @@
+// Background Gradient Utilities
+
+@each $color, $value in $theme-colors {
+  .bg-gradient-#{$color} {
+    background-color: $value;
+    background-image: linear-gradient(75deg, $value 10%, darken($value, 15%) 100%);
+    background-size: cover;
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .bg-#{$color}-gradient {
+    background-color: $value;
+    background-image: linear-gradient(125deg, $value 10%, adjust-hue($value, -33deg) 100%);
+    background-size: cover;
+  }
+}
+
+.bg-dark-gradient {
+    background-color: #5a5c69;
+    background-image: linear-gradient(125deg, #5a5c69 10%, #2d2d2d 100%);
+    background-size: cover;
+}
+
+@each $level, $value in $grays {
+  .bg-gray-#{$level} {
+    background-color: $value !important;
+  }
+}

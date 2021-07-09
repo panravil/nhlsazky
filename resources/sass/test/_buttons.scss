@@ -1,0 +1,26 @@
+@each $color, $value in $theme-colors {
+    .btn-#{$color} {
+        -webkit-transition-duration: 0.3s;
+        -webkit-transition-timing-function: linear;
+        transition-duration: 0.3s;
+        transition-timing-function: linear;
+        font-weight: 600;
+            box-shadow: 0 10px 25px -10px darken($value, 5%);
+
+        &:hover {
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.175) !important;
+        }
+    }
+    .btn-outline-#{$color} {
+        -webkit-transition-duration: 0.3s;
+        -webkit-transition-timing-function: linear;
+        transition-duration: 0.3s;
+        transition-timing-function: linear;
+        font-weight: 600;
+            box-shadow: 0 10px 25px -10px darken($value, 5%);
+
+        &:hover {
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.175) !important;
+        }
+    }
+}
