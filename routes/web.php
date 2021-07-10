@@ -17,7 +17,7 @@ Auth::routes(['verify' => true]);
 Route::get('/nova-sezona', 'HomeController@countdown')->name('nova-sezona');
 Route::get('/countdown', 'HomeController@countdown')->name('nova-sezona');
 
-Route::group([], function () {
+Route::group(['middleware' => ['admin']], function () {
     Route::get('/', 'HomeController@index')->name('home');
     Route::get('/home', 'HomeController@index')->name('home');
     Route::get('/o-mne', 'HomeController@about')->name('about');
