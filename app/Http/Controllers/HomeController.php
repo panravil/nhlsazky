@@ -201,12 +201,12 @@ class HomeController extends Controller
     }
 
     public function event($name)
-    {
+    { 
         if ($page = Event::where([['show', '=', 1], ['seo', '=', $name]])->orWhere([['seo', '=', $name], ['from', '<=', date('Y-m-d')], ['to', '>=', date('Y-m-d')]])->first()) {
 
             return view('front.page.page', compact('page'));
         } else {
-
+            echo "nothing to show";
         }
     }
 

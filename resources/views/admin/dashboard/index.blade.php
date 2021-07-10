@@ -227,14 +227,9 @@
                                 <tr>
                                     <td>
                                         <a class="badge badge-{{ $transaction->activated_date ? 'success': 'warning'}}"
-                                           href="{{ route('admin.tarify.show', $transaction->tariff->id) }}">{{ $transaction->tariff->title }}
+                                           href="{{ route('admin.tarify.show', $transaction->tariff_id) }}">{{ $transaction->tariff_id }}
                                             <span>({{ $transaction->priceCZK }}Kč)</span></a>
                                     </td>
-                                    @if($transaction->user)
-                                        <td><a href="{{ route('admin.uzivatele.show', $transaction->user->id) }}">{{ $transaction->user->email }}</a></td>
-                                        @else
-                                    <td>{{ $transaction->user_email }}</td>
-                                        @endif
                                     <td class="d-none d-sm-table-cell">{{ $transaction->activated_date }}</td>
                                     <td>
                                         X
